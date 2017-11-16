@@ -12,6 +12,7 @@
 		D5F721671FBD4A6600858C6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F721651FBD4A6600858C6D /* Main.storyboard */; };
 		D5F721691FBD4A6600858C6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5F721681FBD4A6600858C6D /* Assets.xcassets */; };
 		D5F7216C1FBD4A6600858C6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F7216A1FBD4A6600858C6D /* LaunchScreen.storyboard */; };
+		D5F721741FBD4CEF00858C6D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F721731FBD4CEF00858C6D /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D5F721681FBD4A6600858C6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5F7216B1FBD4A6600858C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5F7216D1FBD4A6600858C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5F721731FBD4CEF00858C6D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D5F721651FBD4A6600858C6D /* Main.storyboard */,
 				D5F721681FBD4A6600858C6D /* Assets.xcassets */,
 				D5F7216A1FBD4A6600858C6D /* LaunchScreen.storyboard */,
+				D5F721731FBD4CEF00858C6D /* MainViewController.swift */,
 				D5F7216D1FBD4A6600858C6D /* Info.plist */,
 			);
 			path = welcomePage;
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5F721741FBD4CEF00858C6D /* MainViewController.swift in Sources */,
 				D5F721641FBD4A6600858C6D /* ViewController.swift in Sources */,
 				D5F721621FBD4A6600858C6D /* AppDelegate.swift in Sources */,
 			);
